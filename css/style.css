@@ -1,17 +1,52 @@
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: 'Ubuntu', sans-serif;
+body{
+    text-align: center;
+    font-family: 'Ubuntu','sans-serif';
+    color: white;
+    background-color: black;
 }
-html,body{
-    height: 100%;
+#h1-1{
+    margin-bottom: 10px;
 }
-.container{
-    width: 100%;
-    max-width: 1280px;
-    margin: 0 auto;
+h1{
+    font-family: 'Viaoda Libre', cursive;
 }
-.clear{
-    clear: both;
+h2{
+    font-family: 'Viaoda Libre', cursive;
+}
+.links-int{
+    padding: 0 10px 20px 10px;
+    font-family: 'Viaoda Libre', cursive;
+}
+.links-int > a{
+    padding: 0 30px 0 30px;
+    font-size: 30px;
+}
+img{
+    width: 300px;
+}
+p{
+    font-size: 18px;
+}
+.p-me{
+    font-size: 20px;
+}
+li{
+    font-size: 18px;
+}
+ul{
+    list-style-type: none;
+}
+ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+em{
+    color: aliceblue;
+}
+strong{
+    font-size: 25px;
 }
